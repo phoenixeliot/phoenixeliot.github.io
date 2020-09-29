@@ -4,7 +4,11 @@
   "description": "Phoenix Eliot's personal site",
   "scripts": {
     "hint": "htmlhint ./public/index.html",
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d public",
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -14,7 +18,9 @@
   "dependencies": {
     "gh-pages": "^2.2.0",
     "htmlhint": "^0.11.0",
-    "next": "^9.5.3"
+    "next": "^9.5.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",

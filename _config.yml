@@ -1,6 +1,7 @@
 # Site settings
 title: Phoenix Eliot
 keywords: 
+keywords: interface perfectionista // algorithmic wizard
 author: Phoenix Eliot
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://phoenixeliot.github.io" # the base hostname & protocol for your site
